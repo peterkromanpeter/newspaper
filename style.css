@@ -12,6 +12,9 @@ div.header {
   margin: 0px 0px 10px 0px;
 }
 
+.navigation {
+  display: inline-flex;
+}
 
 div.header li {
   list-style-type: none;
@@ -33,6 +36,35 @@ div.header li {
 
 }
 
-hr {
-  color: black;
+
+
+.column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.column_large_head {
+  border-bottom: 1px solid black;
+}
+
+.medium {
+  width: 300px;
+  display: flex:
+  flex-direction: column;
+
+
+}
+
+.small {
+  width: 240px;
+  display: flex:
+  flex-direction: column;
 }
