@@ -1,5 +1,5 @@
 div {
-  border: 1px solid black;
+  border: 0px solid black;
 }
 div.header {
   display: flex;
@@ -37,7 +37,6 @@ div.header li {
 .logo p {
   display: inline-flex;
   padding: 10px 0px 0px 5px;
-
 }
 
 .monument_valley p, .orca p, .burger p, .washington p, .brooklyn p, .newsbites p {
@@ -56,8 +55,10 @@ div.header li {
   width: 630px;
   display: flex;
   flex-direction: column;
+}
 
-
+.column_large_head {
+  display: flex;
 }
 
 .column_large_head_image {
@@ -73,32 +74,46 @@ div.header li {
   color: white;
 }
 
-.earth_spins_image {
+.side-by-side {
   display: flex;
-  min-height: 300px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.earth_spins {
+
+.orca {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.earth_spins_image p, .camera_erase_image p {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+}
 
+.earth_spins_image {
+  min-height: 300px;
+  max-width: 285px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+
+}
+
+
+.burger {
+  display: flex;
+  flex-direction: column;
 }
 
 .camera_erase_image {
-display: flex;
-min-height: 300px;
-background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  min-height: 300px;
+  max-width: 285px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
 }
 
-.camera_erase {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
+
 
 .medium {
   width: 300px;
