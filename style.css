@@ -1,0 +1,38 @@
+div {
+  border: 1px solid black;
+}
+div.header {
+  display: flex;
+  flex-direction: row;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0px 0px 10px 0px;
+}
+
+
+div.header li {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 10px 15px 0px 0px;
+
+}
+.logo {
+  display: inline-flex;
+  color: aquamarine;
+  display:inline-flex;
+  padding: 0px 0px 0px 15px;
+
+}
+
+.logo p {
+  display: inline-flex;
+  padding: 10px 0px 0px 5px;
+
+}
+
+hr {
+  color: black;
+}
