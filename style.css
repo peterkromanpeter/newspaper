@@ -40,7 +40,11 @@ div.header li {
 
 }
 
-
+.monument_valley p, .orca p, .burger p, .washington p, .brooklyn p, .newsbites p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
 
 .column {
   display: flex;
@@ -53,20 +57,67 @@ div.header li {
   display: flex;
   flex-direction: column;
 
+
+}
+
+.column_large_head_image {
+    display: flex;
+    min-height: 300px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
 }
 
 .column_large_head {
-  border-bottom: 1px solid black;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.earth_spins_image {
+  display: flex;
+  min-height: 300px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+
+.earth_spins {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+
+}
+
+.camera_erase_image {
+display: flex;
+min-height: 300px;
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
+
+.camera_erase {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .medium {
   width: 300px;
   display: flex:
   flex-direction: column;
-
-
 }
 
+.cats_image{
+  display: flex;
+  min-height: 300px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+.cats{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
 .small {
   width: 240px;
   display: flex:
