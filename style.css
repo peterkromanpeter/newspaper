@@ -12,6 +12,10 @@ div.header {
   margin: 0px 0px 10px 0px;
 }
 
+.logo {
+  margin-left: 20px;
+}
+
 .navigation {
   display: inline-flex;
 }
