@@ -133,8 +133,41 @@ div.header li {
   font-size: 30px;
   color: white;
 }
+
 .small {
   width: 240px;
   display: flex:
   flex-direction: column;
+
+}
+h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newbites {
+  diaplay: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsbites_text {
+  margin: 0;
+  padding-left: 0px;
+}
+
+
+.newsbites_text ul {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  list-style-type:none;
+
+}
+
+.newsbites_text ul li {
+  padding: 15px 0px 15px 0px;
+  border-bottom: 1px solid black;
 }
