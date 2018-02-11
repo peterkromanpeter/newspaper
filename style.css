@@ -1,6 +1,10 @@
 div {
   border: 0px solid black;
 }
+
+a:link {
+  color: black;
+}
 div.header {
   display: flex;
   flex-direction: row;
@@ -170,4 +174,47 @@ h3{
 .newsbites_text ul li {
   padding: 15px 0px 15px 0px;
   border-bottom: 1px solid black;
+}
+
+.footer {
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  min-height: 300px;
+  min-width: 1220px;
+  margin: 50px 5px 0px 5px;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+
+
+}
+
+.footer_content p {
+  padding: 0px 5px 0px 5px;
+}
+
+#headline {
+  display: flex;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 0px 40px 0px 0px;
+}
+
+#headline_line {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 0px 30px 0px 0px;
+}
+
+.second_line p {
+    text-align: center;
 }
